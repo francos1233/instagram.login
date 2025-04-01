@@ -1,0 +1,164 @@
+/* Resetting margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Layout della pagina di login */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000; /* Imposta lo sfondo nero */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white; /* Colore del testo bianco per contrasto con lo sfondo nero */
+}
+
+/* Pagina di login */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #000000; /* Sfondo nero per la pagina */
+    margin-bottom: 40px; /* Distanza tra la paginetta e il footer */
+}
+
+/* Container per il form di login */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px; /* Larghezza più rettangolare */
+    background-color: #000000; /* Sfondo nero per il contenitore */
+    padding: 40px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid #dbdbdb; /* Bordo sottile grigio */
+}
+
+/* Scritta Instagram con font corsivo (font che fa le lettere collegate) */
+.instagram-text {
+    font-family: 'Dancing Script', cursive; /* Font corsivo simile */
+    font-size: 48px;
+    color: #ffffff; /* Colore bianco per contrastare con il nero */
+    margin-bottom: 30px;
+}
+
+/* Form di login */
+.form-login input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fafafa;
+}
+
+.form-login button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form-login button:hover {
+    background-color: #0078c2;
+}
+
+/* Divider tra le opzioni */
+.divider {
+    margin: 20px 0;
+}
+
+.divider span {
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+/* Pulsante per Facebook */
+.facebook-login .facebook-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #385185;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.facebook-login .facebook-button:hover {
+    background-color: #365899;
+}
+
+/* Link di recupero password */
+.forgot-password a {
+    font-size: 12px;
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Container per il link di registrazione */
+.signup-container {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-container p {
+    margin: 10px 0;
+}
+
+.signup-container a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.signup-container a:hover {
+    text-decoration: underline;
+}
+
+/* Footer: testo sotto la paginetta */
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+/* App download section */
+.app-downloads {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.app-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.app-logo {
+    width: 120px;
+    height: auto;
+}
